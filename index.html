@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="contain1">
+            <div class="photo">
+                <div class="photo2">
+
+            </div>
+            <img src="moon.png" alt="" id="icon">
+                <h2>Mohd Aezad</h2> 
+                
+            </div>
+            
+
+            <div class="description">
+                <p class="prfsn"><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Frontend   developer</p>
+                <p class="prfsn"><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Gurugram</p>
+                <p class="prfsn"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mohdaezad299@gmail.com</p>
+                <p class="prfsn"><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>9319842027</p>
+                <hr>
+                <p class="skill">
+                    <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
+                </p>
+
+                <p>HTML</p>
+                <div class="photoshop">
+                    <div class="phtshp">90%</div>
+                </div>
+                <p>CSS</p>
+                <div class="photoshop">
+                    <div class="photography">80%</div> 
+                </div>
+                <p>Java Script</p>
+                <div class="photoshop">
+                    <div class="illustrater">75%</div>
+                </div>
+                <p>React</p>
+                <div class="photoshop">
+                    <div class="media">50%</div>
+                </div>
+
+                <p class="skill">
+                    <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b>
+                </p>
+                
+
+                <p>English</p>
+
+                <p>Hindi</p>
+
+
+            </div>
+        </div>
+
+        <div class="contain2">
+            <div class="main">
+                <h2> About Me</h2>
+                <div class="frontend">
+                    <h5>Objective</h5>
+                    
+                    <p>Seeking  a  career  in  Quality  environment,  which  offers  me  challenging opportunity 
+where I can share &amp; enrich my knowledge &amp; contribute to achieve organizational goals 
+and objectives. To be an integral part of an organization and grow with its growth.  </p>
+                    <hr>
+                    <h5>Experience</h5>
+                    
+                    <p>Fresher</p>
+                    <hr>
+                    <h5>Personal Details</h5>
+                    
+                    <p>Name : Mohd Aezad</p>
+                <p>DOB : 05/03/2006</p><p>Nationality : Indian</p><p>Martial Status : Single</p><p>Hobies : Tennis, Music, Taekwondo</p><p>Strength : Analytical thinking, Teamwork, Punctuality  </p></div>
+
+                <h2> Education</h2>
+                <div class="frontend">
+                    <h5>School</h5>
+                    <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022 - Completed</h6>
+                    <p>Senior Secondry</p>
+                    <hr>
+                    <h5>Course</h5>
+                    <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2023 - completed</h6>
+                    <p>Full Stack Web development</p>
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Find me on Social media</p>  
+        <a href="https://www.linkedin.com/in/mohd-aezad-7baa01284/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="mohdaezad299@gmail.com" target="_blank"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i></a>        
+    </footer>
+
+    <script>
+        let icon = document.getElementById("icon")
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src='sun.png'
+            }else{
+                icon.src="moon.png"
+            }
+        }
+    </script>
+</body>
+</html>
